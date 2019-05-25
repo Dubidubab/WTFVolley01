@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">capstone01</string>
+    <string name="baseUrl">203.250.133.143:14732/android/sing_up</string>
 </resources>
+

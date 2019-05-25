@@ -22,6 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <EditText
+                android:id="@+id/registerEmail"
                 android:layout_gravity="center"
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
@@ -43,6 +44,7 @@
         android:text="Password"/>
 
         <EditText
+            android:id="@+id/registerPw"
             android:hint="비밀번호"
             android:layout_gravity="center"
             android:layout_width="200dp"
@@ -55,6 +57,7 @@
             android:text="Name"/>
 
         <EditText
+            android:id="@+id/registerName"
             android:hint="이름"
             android:layout_gravity="center"
             android:layout_width="200dp"
@@ -62,6 +65,7 @@
 
 
         <Button
+            android:id="@+id/registerBtn"
             android:layout_marginTop="20dp"
             android:textColor="#FFFFFF"
             android:background="#4374D9"
