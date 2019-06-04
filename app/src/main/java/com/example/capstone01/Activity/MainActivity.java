@@ -1,4 +1,4 @@
-package com.example.capstone01;
+package com.example.capstone01.Activity;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -7,6 +7,12 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+
+import com.example.capstone01.Fragment.FriendFragment;
+import com.example.capstone01.Fragment.MessageFragment;
+import com.example.capstone01.Fragment.MyFragment;
+import com.example.capstone01.Fragment.SocialFragment;
+import com.example.capstone01.R;
 
 public class MainActivity extends AppCompatActivity {
 
